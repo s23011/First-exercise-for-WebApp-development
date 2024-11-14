@@ -1,0 +1,20 @@
+<div class="container top_menu bg_col_b2">
+    <button class="bar_button" onclick="location.href='index.html'">Home</button>   
+    <p class="gap_bar">|</p>
+    <button class="bar_button" onclick="location.href='shop.html'">Shop</button>
+
+    <div style="float:right;">
+        <div id="loginResource" class="dropdown" hidden>
+            <button class="bar_button dropbtn">User Infos <i class='fa fa-caret-down'></i></button>            
+            <div class="dropdown-content">                   
+                <a href="cart.html">Cart</a>
+                <a href="history.html">Shopping History</a>
+                <a href="profile.html">Profile</a>
+                <a href="javascript:userLogout()">Logout</a>
+            </div>
+        </div>
+        <div id="logoutResource" hidden>
+            <button class="bar_button" onclick="location.href='login.html'">Login</button>
+        </div>
+    </div>
+</div>
